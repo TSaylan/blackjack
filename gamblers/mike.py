@@ -1,6 +1,6 @@
-class Chad:
+class Mike:
 
-    name = "Chad"
+    name = "Mike"
     cards = []
 
     def __init__(self, name, cards) -> None:

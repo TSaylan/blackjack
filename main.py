@@ -1,10 +1,13 @@
 import blackjack
 
-
-import gamblers.chad
+from gamblers.chad import Chad
+from gamblers.dave import Dave
+from gamblers.mike import Mike
+from gamblers.greg import Greg
+from gamblers.gary import Gary
 
 game = blackjack.Blackjack
 
-game.players = [gamblers.chad.Chad]
+game.players = [Chad, Dave, Mike, Greg, Gary]
 
 blackjack.Blackjack.start(game)
